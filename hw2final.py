@@ -37,5 +37,3 @@ json_file_descriptor.write(json.JSONEncoder().encode(result))
 json_file_descriptor.close()
 
 
-
-
