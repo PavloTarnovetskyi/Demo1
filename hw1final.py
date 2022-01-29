@@ -1,8 +1,8 @@
 '''
-Task: Create a program that generate folders.
+Task:Create a program that generate folders.
 Program name: hw1.py
 Input parameters: path, prefix, counts, mode
-Example: python hw1.py /home usr 20 551
+Example:python hw1.py /home usr 20 551
 Result of example run: It creates 20 folders on the path /home with names 
 usr1, usr2, etc. and permissions mode 551
 '''
