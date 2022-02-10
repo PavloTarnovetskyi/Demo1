@@ -109,3 +109,4 @@ Next step:
 > P.S. It possible to fix most of problems manually or using bash script below
 
  Bash script -> [*geofix.sh*](./geofix.sh) (in script have to change: serverip, databaseip,email,emailpassword )
+ 
