@@ -17,5 +17,4 @@ for i in range(1,counts+1):
     Newfoder = os.path.join(pathWhere, prefix + str(i))
     os.mkdir(Newfoder, mode)
 
-print('Folder is created')
-    
+print('Folder is created')    

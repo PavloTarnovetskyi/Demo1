@@ -24,7 +24,6 @@ sql_select = ''' SELECT port_number, proj_name FROM ServerPorts
                  INNER JOIN Projects ON Projects.id = ServerProjects.projects_id
                  WHERE Projects.proj_name = '{}' AND ServerTypes.type_name = '{}'          
 '''
-
 with sqlite3.connect(db) as conn:
     print("Current ports")
     cur = conn.cursor()

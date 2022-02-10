@@ -36,4 +36,3 @@ json_file_descriptor = open(json_file_name, 'w+')
 json_file_descriptor.write(json.JSONEncoder().encode(result))
 json_file_descriptor.close()
 
-

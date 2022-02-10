@@ -8,5 +8,4 @@ with rpmfile.open(sys.argv[1]) as rpm:
     print(rpm.headers.get('name')).decode('ascii'),
     rpm.headers.get('release').decode('ascii'),
     rpm.headers.get('version').decode('ascii'),
-    
-    
+        

@@ -11,7 +11,6 @@ mode = sys.argv[7]
 print('Enter user\" '+ uname + '\" password:')
 user_password = getpass.getpass()
 
-
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 ssh.connect(host_name, port_name, uname, user_password, look_for_keys=False, allow_agent=False)
