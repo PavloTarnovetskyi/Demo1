@@ -4,9 +4,10 @@
 #усім телефонним кодам обласних центрів та інших великих міст 
 #тієї частини України, де живуть ваші батьки
 
-# Чернівці: 037, 0372, 03722
-# Тернопіль: 035, 0352
-# Хмельницький: 038, 0382, 03822
+# Чернівці: 037, 0372, 03722;
+# Тернопіль: 035, 0352;
+# Хмельницький: 038, 0382, 03822;
+# Івано-Франківськ: 0342, 03422;
 
 echo "Type local telephone number:  "
 read number
@@ -20,6 +21,9 @@ then echo "Ternopil number "
 elif echo $number | grep -P '^(038)\d{7}$|^(0382)d{6}$|^(03822)d{5}?$';
 then echo "Hmelnytskyi number "
 
-else echo "It is NOT Chernivtsi, Ternopil or Hmelnytskyi number"
+elif echo $number | grep -P '^(0342)d{6}$|^(03422)d{5}?$';
+then echo "Ivano-Frankivsk number "
+
+else echo "It is NOT Chernivtsi, Ternopil, Hmelnytskyi or Ivano-Frankivsk number"
 
 fi 

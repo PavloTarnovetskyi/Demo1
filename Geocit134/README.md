@@ -1,4 +1,7 @@
 # Geo_Citizen 
+
+![Main image](img/geo.jpg?raw=true)
+
 ___build  and deploy project on ubuntu remote server with db on CentOS remote server ___
 
 
