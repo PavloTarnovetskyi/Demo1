@@ -21,9 +21,6 @@ then echo "Ternopil number "
 elif echo $number | grep -P '^(038)\d{7}$|^(0382)d{6}$|^(03822)d{5}?$';
 then echo "Hmelnytskyi number "
 
-elif echo $number | grep -P '^(0342)d{6}$|^(03422)d{5}?$';
-then echo "Ivano-Frankivsk number "
-
-else echo "It is NOT Chernivtsi, Ternopil, Hmelnytskyi or Ivano-Frankivsk number"
+else echo "It is NOT Chernivtsi, Ternopil, or Hmelnytskyi  number"
 
 fi 
