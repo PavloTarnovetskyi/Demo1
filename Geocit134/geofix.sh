@@ -2,8 +2,8 @@
 
 ### Fix 'https' on spring repos in Geocit134/pom.xml
 
- sed -i 's/http:\/\/repo.spring.io\/milestone/https:\/\/repo.spring.io\/milestone/g' 
- sed -i 's/http:\/\/repo.spring.io\/libs-milestone/https:\/\/repo.spring.io\/libs-milestone/g' 
+ sed -i 's/http:\/\/repo.spring.io\/milestone/https:\/\/repo.spring.io\/milestone/g' pom.xml
+ sed -i 's/http:\/\/repo.spring.io\/libs-milestone/https:\/\/repo.spring.io\/libs-milestone/g' pom.xml
 
 ### Fix <javax.servelet-api> in Geocit134/pom.xml
 
