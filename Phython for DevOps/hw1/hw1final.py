@@ -18,3 +18,9 @@ for i in range(1,counts+1):
     os.mkdir(Newfoder, mode)
 
 print('Folder is created')    
+
+#Comand to execute script 
+# ~ python3 hw1final.py ./ usr 5 551
+
+#Comand to remove created folders by script:
+# ~ sudo rm -r usr*
